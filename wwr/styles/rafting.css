@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat&display=swap');
+:root {
+    --primary-color: #1E91D6;
+    --secondary-color: #F85E00;
+    --accent1-color: #544B3D;
+    --accent2-color: #B5C2B7;
+
+    --heading-font: 'Bungee', serif;
+    --paragraph-font: 'Montserrat', serif;
+
+    --nav-background-color: #544B3D;
+    --nav-link-color: #1E91D6;
+    --nav-hover-link-color: #F85E00;
+    --nav-hover-background-color: #B5C3B7;
+}
+
+h2 {
+    font: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+p {
+    font: var(--paragraph-font);
+}
+
+body {
+    max-width: 800px;
+    margin: 20px;
+}
+
+
+.hero {
+    position: relative;
+    width: 100%;
+    
+    
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    
+    color: #fff;
+    font-family: var(--heading-font);
+    background-color: rgba(0, 0, 0, .3);
+    width: 100%;
+    text-align: center;
+
+
+    
+}
+
+h2{
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+p {
+    font-family: var(--paragraph-font);
+}
+
+article {
+    position: absolute;
+    top: 150px;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 20px;
+    margin: 20px;
+    
+}
+
+
+.hero image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img {
+    float: right;
+   
+    
+}
+
+article p {
+    color:#ffff;
+    
+}
